@@ -1,1 +1,0 @@
-This Python program demonstrates the use of conditional statements including if, if else, and if – elif – else. The program checks the value of a variable x and prints whether x is a positive number, a negative number, or zero. To run the program, simply assign a value to x and execute the script in a Python environment.
