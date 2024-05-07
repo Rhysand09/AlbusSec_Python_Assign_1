@@ -1,7 +1,13 @@
 import re
 
-def extract_pattern(file_name, pattern):
-    with open(file_name, 'r') as file:
-        content = file.read()
-    matches = re.findall(pattern, content)
-    return matches
+email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+phone_pattern = r'\b\d{3}[-.\s]?\d{3}[-.\s]?\d{4}\b'
+
+with open('file.txt', 'r') as f:
+    content = f.read()
+
+emails = re.findall(email_pattern, content)
+phone_numbers = re.findall(phone_pattern, content)
+
+print('Emails:', emails)
+print('Phone Numbers:', phone_numbers)
