@@ -36,3 +36,26 @@ These scripts require Python 3 and the following Python libraries installed:
 
 - requests (for Q.3)
 - random, string (for Q.5)
+
+# Assignment-3
+
+# Python Scripts
+
+1. A script to read data from a CSV file and perform basic data cleaning operations like removing duplicates or handling missing values.
+2. A script to search for a specific pattern (e.g., email addresses or phone numbers) within a text file and extract them.
+3. A Python program to find the shortest path in a graph using Dijkstra's algorithm.
+4. A Python class to represent a bank account with methods for deposit, withdrawal, and checking the balance.
+5. A GUI-based file manager that allows users to browse directories, view files, and perform basic file operations like copy, move, and delete.
+
+## Usage
+
+Run the scripts in a Python environment.
+
+## Requirements
+
+These scripts require Python 3 and the following Python libraries installed:
+
+- pandas (for Q.1)
+- re (for Q.2)
+- heapq (for Q.3)
+- tkinter (for Q.5)
